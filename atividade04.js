@@ -1,6 +1,6 @@
 const leia = require('readline-sync')
 
-console.log("Veja a diferença do produto dos dois primeiros números e dos dois últimos números\n")
+console.log("\nVeja a diferença do produto dos dois primeiros números e dos dois últimos números\n")
 
 let num1, num2, num3, num4, diferenca
 
@@ -12,6 +12,6 @@ num4 = leia.questionFloat("Digite o quarto número: ")
 diferenca = (num1 * num2) - (num3 * num4)
 
 
-console.log("\nA diferença entre a multiplicação dos dois primeiros números\n" + 
+console.log("\nA diferença entre a multiplicação dos dois primeiros números\n", 
             "E a multiplicação dois últimos números é igual a: ", diferenca
             )

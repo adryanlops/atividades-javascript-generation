@@ -1,6 +1,6 @@
 const leia = require('readline-sync')
 
-console.log("Vamos calcular o seu Salário Líquido!\n")
+console.log("\nVamos calcular o seu Salário Líquido!\n")
 
 let salarioBruto, addNoturno, horaExtra, descontos, salarioLiquido
 
