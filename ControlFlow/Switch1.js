@@ -12,41 +12,48 @@ console.log("\n| 5) - Refigerante - R$ 8.00")
 console.log("\n| 6) - Suco de Laranja - R$ 13.00")
 
 let opcao = leia.questionInt("\n")
-let quantidade, total
+let quantidade, total, produto
 
 switch(opcao){
     case 1:
         console.log("\nVocê selecionou Cachorro Quente, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 10.00
+        produto = "Cachorro Quente"
         break
     case 2:
         console.log("\nVocê selecionou X-Salada, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 15.00 
+        produto = "X-Salada"
         break
     case 3:
         console.log("\nVocê selecionou X-Bacon, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 18.00 
+        produto = "X-Bacon"
         break
     case 4:
         console.log("\nVocê selecionou Bauru, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 12.00 
+        produto = "Bauru"
         break
     case 5:
         console.log("\nVocê selecionou Refrigerante, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 8.00 
+        produto = "Refrigerante"
         break
     case 6:
         console.log("\nVocê selecionou Suco de Laranja, escolha a quantidade:\n")
         quantidade = leia.questionInt()
         total = quantidade * 13.00 
+        produto = "Suco de Laranja"
+        break
     default:
         console.log("Selecione uma opção válida!")
 }
 
-
-console.log(`\nO valor total do seu pedido é: R$ ${total.toFixed(2)}`)
+console.log(`Produto: `)
+console.log(`\nO valor total: R$ ${total.toFixed(2)}`)
