@@ -13,5 +13,4 @@ diferenca = (num1 * num2) - (num3 * num4)
 
 
 console.log("\nA diferença entre a multiplicação dos dois primeiros números\n", 
-            "E a multiplicação dois últimos números é igual a: ", diferenca
-            )
+            "E a multiplicação dois últimos números é igual a: ", diferenca )
