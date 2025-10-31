@@ -7,7 +7,7 @@ let numero = 0
 
 do{
     numero = leia.questionInt("Digite um número: ")
-    if(numero % 3 === 0 ){
+    if(numero % 3 === 0 && numero > 0 ){
         soma += numero
         contagem ++
     }
