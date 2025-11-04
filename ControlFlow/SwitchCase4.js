@@ -19,7 +19,7 @@ switch(operacao){
         console.log(`Seu saldo é: R$ ${saldo}`)
         break
     case 2:
-        console.log(`Operação - Saque\n`)
+        console.log('Operação - Saque\n')
         let saque = leia.questionFloat("Digite o valor: ")
         if(saque < saldo){
             console.log(`Novo saldo é ${saldo - saque}`)
