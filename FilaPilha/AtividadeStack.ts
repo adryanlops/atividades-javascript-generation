@@ -24,11 +24,12 @@ while (continuar) {
         pilha.push(nome);
         break;
       case 2:
-        console.log("Lista de Clientes na fila");
+        console.log("Lista de Livros na pilha");
         pilha.printStack();
         break;
       case 3:
         pilha.pop();
+        console.log("Livro removido");
         pilha.printStack();
         break;
       default:
